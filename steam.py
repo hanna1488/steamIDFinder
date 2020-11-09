@@ -24,7 +24,7 @@ def checker(combinations, num):
 
 if __name__ == "__main__":
 
-    api_key = '0229FFB71F0B23AD41AE361AA92C0FF4'
+    api_key = 'your api key'
     chars = string.ascii_lowercase + string.digits + '_' + '-'
     possible_combinations = [''.join(i) for i in itertools.product(chars, repeat = 3)]
 
